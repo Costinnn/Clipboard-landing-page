@@ -1,0 +1,287 @@
+
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    
+}
+h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    width: 70%;
+    margin-top: 0;
+}
+
+header{
+    background-image: url(../Clipboard\ landing\ page/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 19rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-snippets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-workflow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container-workflow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttonios{
+    border: none;
+    margin-top: 20px;
+    width: 320px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow:inset -1px -2px 3px rgba(0, 0, 0, 0.25), 2px 5px 5px rgba(38, 186, 164, 0.25);
+
+}
+
+.buttonmac{
+    border: none;
+    margin-top: 20px;
+    width: 320px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow:inset -1px -2px 3px rgba(0, 0, 0, 0.25),2px 5px 5px rgba(97, 115, 255, 0.25);
+}
+.buttonios:hover{
+    background-color: rgba(38, 186, 164, 0.7) ;
+}
+
+.buttonmac:hover{
+    background-color: rgba(97, 115, 255, 0.7) ;
+}
+
+.desktop-image{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 320px;
+}
+
+.snippets-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-title{
+    margin-top: 150px;
+}
+
+.subtitle{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.subtitle-paragraph{
+    margin-top: 15px;
+}
+
+.icon{
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.logo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.space{
+    margin-top: 90px;
+}
+
+footer{
+    background-color: rgba(159, 171, 178, 0.15);
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+#footer-logo{
+    width: 55px;
+    padding-top: 50px;
+}
+
+.footer-list{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(210, 10%, 33%);
+    margin: 13px auto;
+    cursor: pointer;
+}
+
+.item:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+.social-logo{
+    margin: 15px 17px;
+    cursor: pointer;
+}
+
+@media (min-width: 900px){
+header{
+    background-image: url(../Clipboard\ landing\ page/images/bg-header-desktop.png);
+}
+
+.button-container{
+    flex-direction: row;
+    gap: 20px;
+}
+
+.container-snippets{
+    flex-direction: row;
+}
+
+.desktop-image{
+    width: 500px;
+    margin-right: 100px;
+}
+.snippets-items{
+    width: 450px;
+    align-items: flex-start;
+}
+.subtitle{
+    text-align: left;
+}
+
+.subtitle-paragraph{
+    text-align: left;
+}
+
+.subtitle-clipboard{
+    text-align: center;
+}
+.subtitle-clipboard-p{
+    text-align: center;
+    width: 700px;
+}
+
+.main-container-w{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.wf-item{
+    width: 450px;
+}
+
+.container-logos{
+    flex-direction: row;
+   
+}
+
+.logo{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+footer{
+    flex-direction: row;
+    gap: 120px;
+    height: 130px;
+}
+
+#footer-logo{
+    padding-top: 0px;
+}
+.footer-list{
+    flex-direction: row;
+    gap: 20px;
+    /* width: 300px; */
+}
+
+.item{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+}
